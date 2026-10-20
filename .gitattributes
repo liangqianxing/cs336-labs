@@ -1,0 +1,6 @@
+*.pdf binary
+*.npz binary
+*.pkl binary
+*.pt binary
+assignment1-basics/tests/fixtures/** linguist-vendored
+assignment1-basics/tests/_snapshots/** linguist-vendored
