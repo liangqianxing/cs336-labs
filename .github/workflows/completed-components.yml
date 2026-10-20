@@ -20,5 +20,5 @@ jobs:
           python-version: '3.12'
           enable-cache: true
           cache-dependency-glob: assignment1-basics/uv.lock
-      - name: Verify the eight tests for seven completed component groups
+      - name: Verify the nine tests for eight completed component groups
         run: bash scripts/check_completed.sh

@@ -2,7 +2,7 @@
   "upstream_url": "https://github.com/stanford-cs336/assignment1-basics",
   "upstream_commit": "a158843b20107949f1a8d7df1b05cd33b9166712",
   "source_head": "a158843b20107949f1a8d7df1b05cd33b9166712",
-  "captured_at_utc": "2026-10-20T09:14:19+00:00",
+  "captured_at_utc": "2026-10-20T10:08:25+00:00",
   "files": {
     ".gitignore": {
       "bytes": 3097,
@@ -45,8 +45,8 @@
       "sha256": "a3080dbe82832205dbfefe870fb9b300e2354a5358f3ee7f8a32aaa59fa2a04e"
     },
     "cs336_basics/attention.py": {
-      "bytes": 354,
-      "sha256": "999386351b7374288f4e02dd5bde9181df55093d9afa9826a12207aa9c4f5b0b"
+      "bytes": 1794,
+      "sha256": "d8bc8048daa897d74773c0e9f6b02d5ce12b4847832acca2a3f6078f25b5976a"
     },
     "cs336_basics/embedding.py": {
       "bytes": 567,
@@ -137,8 +137,8 @@
       "sha256": "b6a4a682418a537790564822b778bfe424f0793d74fe351986fd583e66362a77"
     },
     "tests/adapters.py": {
-      "bytes": 26581,
-      "sha256": "1ac000b760005cb7aecec5ab5b1b67c0145ed6ee29d5a1810fc9a8d571d58921"
+      "bytes": 26991,
+      "sha256": "83d8b43fcc051a5aeee8f5355ba267e7bce8dcfe48c7eb6886d1726b647e413d"
     },
     "tests/common.py": {
       "bytes": 2353,

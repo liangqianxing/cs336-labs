@@ -2,7 +2,7 @@
 
 跟随 Stanford CS336，从基础张量运算开始实现语言模型组件。这里保存个人学习代码、验证结果和维护记录；配套文章在 [CS336 专栏](https://liangqianxing.github.io/learning/cs336)。
 
-截至 2026-10-20，Assignment 1 已实现 Linear、Embedding、RMSNorm、SiLU、SwiGLU、Softmax、Scaled Dot-Product Attention。对应的 **8 个官方测试通过**，其中 Attention 包含三维、四维输入两个用例。多头注意力、RoPE、Transformer、BPE、优化器和训练流程尚未完成。完整进度与验证边界见 [docs/progress.md](docs/progress.md)。
+截至 2026-10-20，Assignment 1 已实现 Linear、Embedding、RMSNorm、SiLU、SwiGLU、Softmax、Scaled Dot-Product Attention，以及不含 RoPE 的因果多头自注意力。对应的 **9 个官方测试通过**，覆盖 8 类组件，其中缩放点积注意力包含三维、四维输入两个用例。下一步学习 RoPE；Transformer、BPE、优化器和训练流程尚未完成。完整进度与验证边界见 [docs/progress.md](docs/progress.md)。
 
 ## 来源与目录
 
@@ -27,7 +27,7 @@ scripts/check_completed.sh  仅验证当前已实现的组件
 bash scripts/check_completed.sh
 ```
 
-脚本使用 Python 3.12 和官方 `uv.lock`，只执行当前完成组件的 8 个测试。也可以通过 `CS336_PYTHON=/absolute/path/to/python` 使用已经安装依赖的 Python 3.12 环境。首次运行需要下载 PyTorch 等依赖。GitHub Actions 使用同一份测试清单；测试通过仅代表这些用例通过。
+脚本使用 Python 3.12 和官方 `uv.lock`，只执行当前完成组件的 9 个测试。也可以通过 `CS336_PYTHON=/absolute/path/to/python` 使用已经安装依赖的 Python 3.12 环境。首次运行需要下载 PyTorch 等依赖。GitHub Actions 使用同一份测试清单；测试通过仅代表这些用例通过。
 
 ## 学习目录与同步
 

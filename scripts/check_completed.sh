@@ -12,6 +12,7 @@ tests=(
   tests/test_nn_utils.py::test_softmax_matches_pytorch
   tests/test_model.py::test_scaled_dot_product_attention
   tests/test_model.py::test_4d_scaled_dot_product_attention
+  tests/test_model.py::test_multihead_self_attention
 )
 if [[ -n "${CS336_PYTHON:-}" ]]; then
   exec "$CS336_PYTHON" -m pytest -q "${tests[@]}"
