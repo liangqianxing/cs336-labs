@@ -2,7 +2,7 @@
   "upstream_url": "https://github.com/stanford-cs336/assignment1-basics",
   "upstream_commit": "a158843b20107949f1a8d7df1b05cd33b9166712",
   "source_head": "a158843b20107949f1a8d7df1b05cd33b9166712",
-  "captured_at_utc": "2026-10-20T10:08:25+00:00",
+  "captured_at_utc": "2026-10-28T09:12:49+00:00",
   "files": {
     ".gitignore": {
       "bytes": 3097,
@@ -33,8 +33,8 @@
       "sha256": "cf402d1c6d3c66da035bdf33b3e2c1bbc4bb92a78b006ee36577e925a265e328"
     },
     "cs336_basics/__init__.py": {
-      "bytes": 150,
-      "sha256": "687192e9a8eb08caed2ad612b86fbefdaa21229160f613525996f0eada9096dc"
+      "bytes": 1438,
+      "sha256": "d87056cc906f247ff0e7e9a269fc251472d1e2765dccb4ef2cee40113f57a119"
     },
     "cs336_basics/pretokenization_example.py": {
       "bytes": 2235,
@@ -45,8 +45,20 @@
       "sha256": "a3080dbe82832205dbfefe870fb9b300e2354a5358f3ee7f8a32aaa59fa2a04e"
     },
     "cs336_basics/attention.py": {
-      "bytes": 1794,
-      "sha256": "d8bc8048daa897d74773c0e9f6b02d5ce12b4847832acca2a3f6078f25b5976a"
+      "bytes": 2807,
+      "sha256": "0aab8efe370dcb23791e3b319d218f464a136f1c17d3b3459b4636cae5c0f58a"
+    },
+    "cs336_basics/bpe.py": {
+      "bytes": 4807,
+      "sha256": "c74fd7a71041fa8440d38254be187686cdc29e13a5d5dbf24c710504518eb99b"
+    },
+    "cs336_basics/data.py": {
+      "bytes": 723,
+      "sha256": "03d0bf919dac5155d3dac87504c0c7c0a68c41aaff393a398c49cec783a0b634"
+    },
+    "cs336_basics/decoding.py": {
+      "bytes": 2013,
+      "sha256": "6c5d7241f25e579d42214029ec15c4208ca5c288fcbb8cea2b4131d741ced0c5"
     },
     "cs336_basics/embedding.py": {
       "bytes": 567,
@@ -56,13 +68,41 @@
       "bytes": 550,
       "sha256": "ae96aac9b82d87f2da70dcdf01594fce317f326d7b888d8e352034c87f469e22"
     },
+    "cs336_basics/nn_utils.py": {
+      "bytes": 1152,
+      "sha256": "1d5848c7fcbb8bb110767b49bdd0cb59da251e359839a77ca5b47f1d6d7967e3"
+    },
+    "cs336_basics/optimizer.py": {
+      "bytes": 2974,
+      "sha256": "f11cbb967c52c4926897ebb5360a9638df6e761009ceea5e7f4f9f303ce23228"
+    },
     "cs336_basics/rmsnorm.py": {
       "bytes": 539,
       "sha256": "a3bace2a125923e272594d21b581da0200721f2a7e38f3e7ac542501e7fe82f1"
     },
+    "cs336_basics/rope.py": {
+      "bytes": 1236,
+      "sha256": "ee26626c12744673fd6a2eca8e43569d8c599d434dff1833e1a98c3c5449914e"
+    },
+    "cs336_basics/serialization.py": {
+      "bytes": 774,
+      "sha256": "80d7ddead18604751257434bd1015676b083756091ab043e1886eaf54e2229a1"
+    },
     "cs336_basics/swiglu.py": {
       "bytes": 567,
       "sha256": "531793653acd727b6d17eaa27c16f17712e546ff92f05d7778bb7ff0c62a708f"
+    },
+    "cs336_basics/tokenizer.py": {
+      "bytes": 5294,
+      "sha256": "8fe4f835b70a7c43dada9b84c69c8536cc0b152a2ea75a26076e28e52fc81b07"
+    },
+    "cs336_basics/train.py": {
+      "bytes": 8084,
+      "sha256": "c980ac77ee36ced0c779732a102539126063eac1b509f930ca32318ba81bde65"
+    },
+    "cs336_basics/transformer.py": {
+      "bytes": 3265,
+      "sha256": "cca89d4d06f13c85ce8491cfabce94ca06a6bf83cbc282468f884e58e54dc06d"
     },
     "make_submission.sh": {
       "bytes": 857,
@@ -137,8 +177,8 @@
       "sha256": "b6a4a682418a537790564822b778bfe424f0793d74fe351986fd583e66362a77"
     },
     "tests/adapters.py": {
-      "bytes": 26991,
-      "sha256": "83d8b43fcc051a5aeee8f5355ba267e7bce8dcfe48c7eb6886d1726b647e413d"
+      "bytes": 9096,
+      "sha256": "3157b4e78056b172a4127f45ac201e965660576dd799af9332bedf1f5c120df6"
     },
     "tests/common.py": {
       "bytes": 2353,
